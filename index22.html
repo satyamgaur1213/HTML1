@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>   
+       .pad
+       {
+            border: 12px double black; 
+          
+            padding : 30px 60px;
+            background-color:green;
+             margin: 30px3;
+       }
+       .pad
+        {
+           font-size: 20px;
+           font-weight : 900;
+          font-family:"lucida console", Courier, monospace;
+        }
+       
+        .para1
+         { 
+            position:relative;
+            border:2px solid green;
+            width: 400px;
+            height: 200px;
+            z-index: index 1px;
+         }
+
+         .para2
+         {
+            position:absolute;
+            border:2px solid red;           
+         }
+
+
+
+            .box
+            {
+                 position: absolute;
+                 width: 100px;
+                 height: 80px;
+            }
+            
+            .first
+            {
+                background-color:red;
+                z-index: index 11;
+                left:50px;                          
+            }
+            
+            .second
+            {
+                background-color:green;
+                z-index: 2;
+            }
+           
+            .scrolldiv
+            {
+                width: 100px;
+                height: 100px;
+            }
+             
+            .scrolldiv
+            {
+                width: 100px;
+                height: 100px;
+                overflow: scroll;
+                opacity: 1;
+            }
+        </style>
+</head>
+<body>
+       <div class="pad">
+                cheking padding & margin
+      </div>
+      <br>
+      <br>
+
+   <div class="para1">
+         paragraph1
+
+    <div class="para2">
+        paragraph2
+    </div>
+    </div>
+    <br>
+    <br>
+
+
+     <div class="box first">
+            first div
+     </div>
+
+    <div class="box second">
+          second div
+    </div>
+
+    <div class="box third">
+            third div
+    </div>
+
+ <div class="scrolldiv">
+     this is a first line
+     this is a second line
+     this is a third line
+     this is a fourth line
+     
+ </div>
+
+ <br>
+ <br>
+
+  <div class="scrolldiv">
+     this is a first line
+     this is a second line
+     this is a third line
+     this is a fourth line 
+     this is a fiveth line 
+     
+ </div>
+
+
+</body>
+</html>
