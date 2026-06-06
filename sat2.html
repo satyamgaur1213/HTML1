@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .card
+        {
+            padding: 40px 60px;
+            color: #fff;
+            font-size: 1.2rem;
+            
+            background-color: rgba(255,255,255,0.20);
+            backdrop-filter: blur(10px);
+            saturate(180%); -webkit-backdrop-filter: blur(10px) saturation(180%);
+            border: 1px solid rgba(255,255,255,0.30);
+            border-radius: 16px;
+            box-shadow: 0px 8px 32px rgba(0,0,0,0.25);
+        }
+        .pad
+        {
+            padding: 50px;
+            background-color: green;
+        }
+        .para1
+        {
+            /*position: relative;*/
+             width: 400px;
+            height: 200px;
+            border: 2px solid black;  
+        }
+        .para2
+        {
+            position: absolute;
+            top: 80px;
+            right: 0px;
+            width: 200px;
+            height: 100px;
+            border:2px solid red;
+        }
+        .box
+        {
+            /*position: absolute;*/
+            width: 100px;
+            height: 80px;
+        }
+        .first 
+        {
+            background-color: red;
+            z-index: 1;
+            left: 50px;
+        }
+        .second 
+        {
+            background-color: green;
+            z-index: 2;
+        }
+        .scrolldiv
+        {
+            width: 100px;
+            height: 100px;
+            overflow: scroll;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+   <div class=" w3-text-black w3-green w3-hover-text-yellow w3-hover-purple w3-center">
+    This is external css.
+   </div><br>
+   <div class=" w3-text-black w3-pink w3-hover-text-yellow w3-hover-green w3-right">
+    This is internal css.
+   </div><br><br>
+   <div class="w3-card w3-red">
+    This is a card
+   </div><br>
+   <div class="card">
+    This is a second css.
+   </div><br>
+   <div class="pad">
+    Checking padding and margin.
+   </div><br>
+   <div class="para1">
+    Paragraph 1
+   <div class="para2">
+    Paragraph 2
+   </div>
+   </div><br>
+
+   <div class="box first">
+    first div
+   </div>
+   <div class="box second">
+    second div
+   </div>
+   <div class="box third">
+    third div
+   </div><br>
+   <div class="scrolldiv">
+    Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur.
+   </div>
+</body>
+</html>
